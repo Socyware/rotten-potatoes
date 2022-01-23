@@ -20,11 +20,11 @@ jobs:
           context: ./src
           file: ./sc/Dockerfile
           push: true
-          tags: |
+          tags: 
             socyware/rotten-potatoes:latest
             socyware/rotten-potatoes:${{ github.run_number }}
                        
-            |
+            
             
         
            
