@@ -41,7 +41,7 @@ jobs:
         with: 
           images: socyware/rotten-potatoes:${{ github.run_number }}
           manifests: |
-            k8s/deployment.yaml
+            k8S/deployment.yaml
             
         
            
